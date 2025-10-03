@@ -1,9 +1,5 @@
 # 📅 Daily LeetCode Challenge (Oct – Dec 2025)  
 
-<p align="center">
-  <img src="https://media.giphy.com/media/f9j3eFQZcMyt2v7zVt/giphy.gif" width="250" alt="Coding Animation"/>
-</p>
-
 Welcome to **Daily-LeetCode** 🚀  
 This repository documents my journey of solving **LeetCode problems daily from October 1st to December 31st, 2025**.  
 The focus is **discipline, algorithms, and consistency** 💪✨  
