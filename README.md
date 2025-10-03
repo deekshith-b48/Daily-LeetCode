@@ -1,4 +1,65 @@
-# 📅 Daily LeetCode Challenge (Oct – Dec 2025)  
+<div align="center">
+
+# 🚀 90-Day LeetCode Mastery Journey
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&## 🛠️ How to Navigate This Journey
+
+<div align="center">
+
+### 🗂️ Repository Structure
+
+```
+📦 Daily-LeetCode/
+├── 📁 Daily-contest/
+│   ├── 📂 oct-1-25/          # Day 1 Solutions
+│   │   ├── 🟨 problem.java    # Solution Code
+│   │   └── 📝 summary.md      # Problem Analysis
+│   ├── 📂 oct-2-25/          # Day 2 Solutions
+│   └── 📂 ... (90 days)
+├── 🤖 .github/workflows/      # Auto-update Magic
+├── 📊 scripts/               # Progress Tracking
+├── 📈 stats.json             # Live Statistics
+└── 🚀 README.md              # This File!
+```
+
+</div>
+
+### 🎯 Quick Start Guide
+
+1. **📚 Browse Solutions:** Navigate to `Daily-contest/oct-X-25/` folders
+2. **🔍 Study Code:** Each `.java` file contains clean, commented solutions
+3. **📖 Read Analysis:** Check `-summary.md` files for problem breakdowns
+4. **🏃 Run Code:** Use your favorite Java IDE or:
+   ```bash
+   javac Problem.java && java Problem
+   ```
+5. **📊 Track Progress:** Watch the live stats update automatically!
+
+> 💡 **Pro Tip:** Try solving problems yourself first, then compare with my solutions!&size=24&duration=3000&pause=1000&color=00D8FF&center=true&vCenter=true&width=600&lines=Building+Coding+Excellence+Daily;From+Zero+to+Hero+in+90+Days;Consistency+%2B+Practice+%3D+Success;Oct+1+%E2%86%92+Dec+31%2C+2025" alt="Typing SVG" />
+
+### 💡 *"The journey of a thousand algorithms begins with a single commit"*
+
+[![Challenge Status](https://img.shields.io/badge/🔥_Challenge-In_Progress-ff6b6b?style=for-the-badge&labelColor=2d3748)](https://github.com/deekshith-b48/Daily-LeetCode)
+[![Days Completed](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=📅%20DAYS&suffix=/90&style=for-the-badge&color=4ecdc4&labelColor=2d3748)](https://github.com/deekshith-b48/Daily-LeetCode)
+[![Problems Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&label=✅%20SOLVED&style=for-the-badge&color=45b7d1&labelColor=2d3748)](https://github.com/deekshith-b48/Daily-LeetCode)
+[![Success Rate](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&label=📊%20SUCCESS&suffix=%25&style=for-the-badge&color=96ceb4&labelColor=2d3748)](https://github.com/deekshith-b48/Daily-LeetCode)
+
+</div>
+
+---
+
+## 🎯 Mission Statement
+
+> **Building interview-ready skills through consistent daily practice**
+
+This isn't just another coding repository - it's a **90-day transformation journey** from October to December 2025. Every commit represents growth, every solution builds confidence, and every day moves me closer to landing that dream job! 💼✨
+
+### 🎮 Challenge Rules
+- 🔥 **One problem minimum per day** (no excuses!)
+- ⚡ **LeetCode Daily Challenge priority** 
+- 🏆 **Document the journey** with clean, readable code
+- 🎯 **Focus on understanding**, not just solving
+- 💪 **Never break the streak** (90 days straight!)Code Challenge (Oct – Dec 2025)  
 
 Welcome to **Daily-LeetCode** 🚀  
 This repository documents my journey of solving **LeetCode problems daily from October 1st to December 31st, 2025**.  
@@ -16,42 +77,56 @@ The focus is **discipline, algorithms, and consistency** 💪✨
 
 ---
 
-## 📊 Live Progress Dashboard 🚀
+<div align="center">
 
-### 🔥 Real-Time Challenge Stats
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/deekshith-b48/Daily-LeetCode?style=for-the-badge&logo=github&label=Last%20Solved&color=brightgreen" alt="Last Commit"/>
-  <img src="https://img.shields.io/github/commit-activity/w/deekshith-b48/Daily-LeetCode?style=for-the-badge&label=Weekly%20Activity&color=blue" alt="Weekly Activity"/>
-</p>
+## 📊 Live Progress Dashboard
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Challenge%20Started-Oct%201,%202025-orange?style=for-the-badge" alt="Start Date"/>
-  <img src="https://img.shields.io/badge/Target-90%20Days-red?style=for-the-badge" alt="Target"/>
-  <img src="https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge" alt="Status"/>
-</p>
+### 🎮 Real-Time Challenge Metrics
 
-### 🔥 GitHub Streak Calendar (Auto-Updated)
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=📅&suffix=/90%20Days&style=for-the-badge&color=ff6b6b&labelColor=1a1a1a" alt="Current Day"/>
+<br><sub><b>Challenge Progress</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&label=✅&suffix=%20Solved&style=for-the-badge&color=4ecdc4&labelColor=1a1a1a" alt="Problems Solved"/>
+<br><sub><b>Problems Conquered</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&label=🎯&suffix=%25%20Rate&style=for-the-badge&color=45b7d1&labelColor=1a1a1a" alt="Success Rate"/>
+<br><sub><b>Success Rate</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.daysRemaining&label=⏰&suffix=%20Left&style=for-the-badge&color=96ceb4&labelColor=1a1a1a" alt="Days Remaining"/>
+<br><sub><b>Days Remaining</b></sub>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshith-b48&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
-</p>
+### 🔥 GitHub Activity Heatmap
 
-### 📈 Daily Activity Graph 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshith-b48&theme=dark&hide_border=true&background=0D1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=4ecdc4&sideLabels=45b7d1&currStreakNum=ffffff&dates=96ceb4" alt="GitHub Streak"/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deekshith-b48&theme=tokyo-night&hide_border=true&custom_title=LeetCode%20Journey%20Activity%20Graph" alt="Activity Graph"/>
-</p>
+### 📈 Coding Activity Timeline
 
-### 📊 Problem Solving Progress
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=deekshith-b48&theme=react-dark&hide_border=true&area=true&custom_title=90-Day%20Coding%20Journey%20Activity" alt="Activity Graph"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&label=Problems%20Solved&style=for-the-badge&color=brightgreen" alt="Problems Solved"/>
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=Challenge%20Day&style=for-the-badge&color=blue" alt="Current Day"/>
-</p>
+</div>
 
-> ✅ **Fully Automated:** All stats update automatically with each commit!  
-> 🔥 **Zero Manual Work:** Just commit your solutions - everything else is magic!  
-> 📈 **Real-Time:** Stats refresh instantly when you push code!  
+### ⚡ Live Update Status
+
+<div align="center">
+
+![Last Commit](https://img.shields.io/github/last-commit/deekshith-b48/Daily-LeetCode?style=flat-square&logo=github&label=Last%20Update&color=success)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/deekshith-b48/Daily-LeetCode?style=flat-square&label=This%20Week&color=blue)
+![Auto Updates](https://img.shields.io/badge/Auto%20Updates-✅%20Active-brightgreen?style=flat-square)
+
+</div>
+
+> 🤖 **Fully Automated Dashboard:** All metrics update in real-time with every commit!  
+> ⚡ **Zero Manual Work:** Focus on coding - let automation handle the tracking!  
+> � **Live Data:** Stats refresh instantly when you push solutions!  
 
 ---
 
@@ -99,92 +174,199 @@ python <problem_name>.py
 
 ---
 
-## 🎯 Goals & Motivation
+## 🎯 The Why Behind This Journey
 
-> *"Small daily wins lead to massive results."*
+<div align="center">
 
-🌟 **Challenge Goals (90 Days):**
+### 💭 My Motivation
 
-* ✅ Build **Oct–Dec streak** without breaks.
-* ✅ Strengthen **Data Structures & Algorithms** knowledge.
-* ✅ Stay **interview-ready** through consistency.
-* ✅ End 2025 with a **completed challenge milestone**.
+> *"Every expert was once a beginner. Every pro was once an amateur."*
 
-🔥 **Motivation Boosters:**
+</div>
 
-* 🏆 Day 30 → 1-Month Streak 🎉
-* 🔥 Day 60 → 2-Month Streak 💯
-* 🚀 Day 90 → Completed 2025 Challenge 🌟
+### 🚀 Mission Objectives
 
-> "Success is the sum of small efforts, repeated day in and day out."  
-> "Consistency is the key to mastery. Every day is a step closer to your goal."  
+<table align="center">
+<tr>
+<td align="center">🧠<br><b>Master DSA</b><br><sub>Build rock-solid fundamentals</sub></td>
+<td align="center">💼<br><b>Job Ready</b><br><sub>Ace technical interviews</sub></td>
+<td align="center">🔥<br><b>Consistency</b><br><sub>90-day unbroken streak</sub></td>
+<td align="center">📈<br><b>Growth</b><br><sub>From novice to confident</sub></td>
+</tr>
+</table>
 
-Remember:  
-**Progress, not perfection. Your future self will thank you! 🚀**
+### 🎪 Milestone Celebrations
+
+- **🏅 Week 1:** First 7-day streak unlocked!
+- **� Day 30:** One month of dedication - treating myself to coffee ☕
+- **� Day 60:** Two months strong - weekend celebration 🎉  
+- **� Day 90:** Challenge COMPLETED - dream job applications begin! 💼
+
+### 📝 Daily Mantras
+
+<div align="center">
+
+*"Consistency beats perfection"* ⭐  
+*"Every problem solved is progress made"* 📊  
+*"Future me will thank present me"* 🙏  
+*"One day, one problem, one step closer"* 👣
+
+**Remember:** This journey isn't about being perfect - it's about being persistent! �
+
+</div>
 
 ---
 
-## 📌 Repo Layout
+## 🏗️ Project Architecture
+
+<details>
+<summary><b>�️ Repository Structure</b> (Click to expand)</summary>
 
 ```
-📦 Daily-LeetCode-Challenge
- ┣ 📂 2025
- ┃ ┣ 📂 October
- ┃ ┣ 📂 November
- ┃ ┗ 📂 December
- ┣ 📂 extras (topic-based solutions)
- ┣ 📜 README.md
- ┗ 📜 progress_log.md (optional)
+� Daily-LeetCode/ (Root)
+├── 📁 Daily-contest/              # 📊 Daily Solutions Hub
+│   ├── 📂 oct-1-25/
+│   │   ├── 🟨 problem.java         # ✨ Clean Solution Code
+│   │   └── 📝 summary.md          # 🧠 Problem Analysis
+│   ├── 📂 oct-2-25/
+│   └── 📂 ... (90 folders total)
+├── 🤖 .github/
+│   └── ⚙️ workflows/
+│       └── 📊 update-stats.yml   # � Auto-magic Updates
+├── 📊 scripts/
+│   └── � progress-tracker.js   # 🤖 Smart Counter
+├── 📈 stats.json                  # � Live Data Feed
+├── 📦 package.json               # 🔧 Node.js Config
+├── 📄 tracking-setup.md          # 📚 Setup Guide
+├── 📝 update-progress.sh         # ⚙️ Manual Updater
+└── � README.md                  # 💬 You Are Here!
 ```
 
+### 🎯 File Naming Convention
+- **Daily Folders:** `oct-{day}-25` format for easy sorting
+- **Solution Files:** `{problem-number}.java` for direct identification  
+- **Summaries:** `{problem-number}-problem-summary.md` for analysis
+- **Auto-Generated:** `stats.json` updates with every commit
+
+</details>
+
 ---
 
-## 📂 Auto-update Setup
+## 🤖 Automation Magic Explained
 
-The streak calendar above uses [**GitHub Readme Streak Stats**](https://github.com/denvercoder1/github-readme-streak-stats).
-If you want **daily auto-updates**, add this to your repo’s GitHub Actions workflow:
+<div align="center">
 
-**.github/workflows/update-readme.yml**
+### 🎪 How The Auto-Tracking Works
 
-```yaml
-name: Update README Streak
+</div>
 
-on:
-  schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight UTC
-  workflow_dispatch:
+<details>
+<summary><b>🔧 Technical Implementation</b> (Click for details)</summary>
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+### 🚀 GitHub Actions Workflow
 
-      - name: Update README.md
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "♻️ Auto-update streak heatmap"
-          git push
+Every commit triggers our smart automation:
+
+1. **🔍 Scan Repository:** Counts `.java` files in `Daily-contest/` folders
+2. **📈 Calculate Stats:** Updates problems solved, success rate, days elapsed  
+3. **💾 Generate JSON:** Creates fresh `stats.json` with live data
+4. **🔄 Update Badges:** All README badges refresh automatically
+5. **📊 Commit Changes:** Pushes updated stats back to repo
+
+### 📁 File Structure Impact
+
+```
+Daily-contest/
+├── oct-1-25/
+│   └── 1.java          ← Counts as 1 problem
+├── oct-2-25/  
+│   └── 2.java          ← Counts as 1 problem
+└── oct-3-25/
+    └── 3.java          ← Counts as 1 problem
+                           → Total: 3 problems, 3 days
 ```
 
-This ensures the streak graphic stays **fresh daily** without manual edits.
+### 🔄 Update Triggers
+- **🔄 Every Commit:** Instant stats refresh
+- **⏰ Daily Schedule:** Midnight UTC backup update
+- **🔄 Manual Trigger:** Run `./update-progress.sh`
+
+</details>
+
+<div align="center">
+
+**🎆 The Result:** A self-updating portfolio that impresses recruiters! 💼
+
+</div>
 
 ---
 
-## 📬 Contact
+## 🤝 Let's Connect & Grow Together
 
-* GitHub: [deekshith-b48](https://github.com/deekshith-b48)
-* LinkedIn: *(Add profile link)*
+<div align="center">
+
+### 🌐 Find Me Online
+
+[![GitHub](https://img.shields.io/badge/GitHub-deekshith--b48-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deekshith-b48)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Follow-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/your-username)
+
+### 💬 Let's Chat About
+
+💻 **Coding Challenges** • 🎯 **Career Growth** • 🤝 **Collaboration** • 🚀 **Tech Trends**
+
+</div>
 
 ---
 
-## ⭐ Support
+## 🎆 Join The Journey
 
-If this inspires you, please **⭐ Star** the repo & **👨‍💻 Follow** to stay updated!
+<div align="center">
 
-<p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="350" alt="Keep Coding"/>
-</p>
+### 💪 Inspired? Let's Code Together!
+
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/deekshith-b48/Daily-LeetCode/stargazers">
+<img src="https://img.shields.io/github/stars/deekshith-b48/Daily-LeetCode?style=for-the-badge&logo=star&color=yellow" alt="Star Repository"/>
+</a>
+<br><sub><b>⭐ Star this repo</b></sub>
+</td>
+<td align="center">
+<a href="https://github.com/deekshith-b48">
+<img src="https://img.shields.io/github/followers/deekshith-b48?style=for-the-badge&logo=github&color=blue" alt="Follow on GitHub"/>
+</a>
+<br><sub><b>👥 Follow my journey</b></sub>
+</td>
+<td align="center">
+<a href="https://github.com/deekshith-b48/Daily-LeetCode/fork">
+<img src="https://img.shields.io/github/forks/deekshith-b48/Daily-LeetCode?style=for-the-badge&logo=fork&color=green" alt="Fork Repository"/>
+</a>
+<br><sub><b>🔄 Fork & customize</b></sub>
+</td>
+</tr>
+</table>
+
+### 📝 Want to Start Your Own Challenge?
+
+1. 🍴 **Fork this repository**
+2. 📝 **Update the dates and goals**  
+3. 🚀 **Start your own 90-day journey**
+4. 💬 **Share your progress with #90DayLeetCode**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2000&pause=1000&color=4ECDC4&center=true&vCenter=true&width=600&lines=Keep+Coding%2C+Keep+Growing;The+Best+Time+to+Start+Was+Yesterday;The+Second+Best+Time+is+NOW!" alt="Motivational Typing SVG" />
+
+**Let's make 2025 the year we level up together! 🚀💪**
+
+</div>
+
+---
+
+<div align="center">
+
+*Made with ❤️, lots of ☕, and endless determination*
+
+**Happy Coding! 🎉**
+
+</div>
