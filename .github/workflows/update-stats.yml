@@ -57,18 +57,6 @@ jobs:
           
       - name: ✨ Generate Stats JSON
         run: |
-          # Simple calculation using shell arithmetic
-          PROBLEMS=${{ steps.count.outputs.problems }}
-          CURRENT_DAY=${{ steps.progress.outputs.currentDay }}
-          
-          # Calculate simple average (will be integer division, e.g., 2/3 = 0)
-          if [ $CURRENT_DAY -gt 0 ]; then
-            AVERAGE=$((PROBLEMS * 10 / CURRENT_DAY))  # Multiply by 10 for one decimal place
-            AVERAGE_FORMATTED="$((AVERAGE / 10)).$((AVERAGE % 10))"
-          else
-            AVERAGE_FORMATTED="0.0"
-          fi
-          
           cat > stats.json << EOF
           {
             "totalProblems": ${{ steps.count.outputs.problems }},
@@ -79,9 +67,7 @@ jobs:
             "lastUpdated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
             "daysRemaining": $((90 - ${{ steps.progress.outputs.currentDay }})),
             "targetProblems": 90,
-            "averageProblemsPerDay": "$AVERAGE_FORMATTED",
-            "progressPercentage": $((${{ steps.progress.outputs.currentDay }} * 100 / 90)),
-            "completionStatus": "In Progress"
+            "averageProblemsPerDay": "$(echo "scale=2; ${{ steps.count.outputs.problems }} / ${{ steps.progress.outputs.currentDay }}" | bc -l 2>/dev/null || echo "0")"
           }
           EOF
           
