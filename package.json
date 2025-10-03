@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-progress-tracker",
+  "version": "1.0.0",
+  "description": "Automatic progress tracking for Daily LeetCode Challenge",
+  "main": "scripts/progress-tracker.js",
+  "scripts": {
+    "track": "node scripts/progress-tracker.js",
+    "save-stats": "node scripts/progress-tracker.js --save",
+    "stats": "node scripts/progress-tracker.js --quiet"
+  },
+  "keywords": ["leetcode", "progress", "tracking", "automation"],
+  "author": "deekshith-b48",
+  "license": "MIT"
+}
