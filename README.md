@@ -1,17 +1,14 @@
-# � 90-Day LeetCode Challenge
+# 🚀 Daily LeetCode Challenge - 90 Days
 
 <div align="center">
 
-![Challenge Banner](https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=00D8FF&center=true&vCenter=true&width=800&lines=90-Day+LeetCode+Mastery+Journey;Building+Coding+Excellence+Daily;Oct+1+%E2%86%92+Dec+31%2C+2025)
+![Challenge Banner](https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=00D8FF&center=true&vCenter=true&width=800&lines=90-Day+LeetCode+Journey;Oct+1+%E2%86%92+Dec+30%2C+2025;Building+Coding+Excellence+Daily)
 
-**🎯 Transforming dedication into expertise, one problem at a time**
+**🎯 Consistent daily practice to master Data Structures & Algorithms**
 
 [![Challenge Status](https://img.shields.io/badge/🔥_Challenge-In_Progress-ff6b6b?style=for-the-badge)](https://github.com/deekshith-b48/Daily-LeetCode)
-
-[![Days Completed](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=📅%20DAYS&suffix=/90&style=for-the-badge&color=4ecdc4)](https://github.com/deekshith-b48/Daily-LeetCode)
-
+[![Days Completed](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=📅%20DAY&suffix=/90&style=for-the-badge&color=4ecdc4)](https://github.com/deekshith-b48/Daily-LeetCode)
 [![Problems Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&label=✅%20SOLVED&style=for-the-badge&color=45b7d1)](https://github.com/deekshith-b48/Daily-LeetCode)
-
 [![Success Rate](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&label=📊%20SUCCESS&suffix=%25&style=for-the-badge&color=96ceb4)](https://github.com/deekshith-b48/Daily-LeetCode)
 
 </div>
@@ -22,174 +19,130 @@
 
 <div align="center">
 
-### 🎮 Challenge Metrics
+### � Current Statistics
 
-<table align="center">
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&label=📅&suffix=/90%20Days&style=for-the-badge&color=ff6b6b&labelColor=1a1a1a" alt="Current Day"/>
-<br><sub><b>Challenge Progress</b></sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&label=✅&suffix=%20Solved&style=for-the-badge&color=4ecdc4&labelColor=1a1a1a" alt="Problems Solved"/>
-<br><sub><b>Problems Conquered</b></sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&label=🎯&suffix=%25%20Rate&style=for-the-badge&color=45b7d1&labelColor=1a1a1a" alt="Success Rate"/>
-<br><sub><b>Success Rate</b></sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.daysRemaining&label=⏰&suffix=%20Left&style=for-the-badge&color=96ceb4&labelColor=1a1a1a" alt="Days Remaining"/>
-<br><sub><b>Days Remaining</b></sub>
-</td>
-</tr>
-</table>
+| Metric | Current | Target | Progress |
+|--------|---------|--------|----------|
+| **Challenge Day** | ![Day](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&style=flat-square&color=blue) / 90 | 90 Days | ![Progress](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.progressPercentage&suffix=%25&style=flat-square&color=green) |
+| **Problems Solved** | ![Problems](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&style=flat-square&color=brightgreen) | 90+ | ![Rate](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&suffix=%25&style=flat-square&color=orange) |
+| **Days Remaining** | ![Remaining](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.daysRemaining&style=flat-square&color=red) | 0 | 📅 |
+| **Avg Problems/Day** | ![Avg](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.averageProblemsPerDay&style=flat-square&color=blue) | 1.0 | 📈 |
 
-| 📊 Metric | 🔢 Current | 🎯 Target | Status |
-|:---------:|:----------:|:---------:|:------:|
-| **Days** | ![Days](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.currentDay&style=flat-square&color=blue) | 90 | 📅 |
-| **Problems** | ![Problems](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.totalProblems&style=flat-square&color=green) | 90+ | ✅ |
-| **Success Rate** | ![Success](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.successRate&suffix=%25&style=flat-square&color=orange) | 100% | 📈 |
-| **Remaining** | ![Remaining](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deekshith-b48/Daily-LeetCode/main/stats.json&query=$.daysRemaining&style=flat-square&color=red) | 0 | ⏰ |
-
-### � GitHub Activity Heatmap
+### 🔥 GitHub Activity
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshith-b48&theme=dark&hide_border=true&background=0D1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=4ecdc4&sideLabels=45b7d1&currStreakNum=ffffff&dates=96ceb4" alt="GitHub Streak"/>
 
-### 📈 Coding Activity Timeline
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deekshith-b48&theme=react-dark&hide_border=true&area=true&custom_title=90-Day%20Coding%20Journey%20Activity" alt="Activity Graph"/>
-
-</div>
-
-### ⚡ Live Update Status
-
-<div align="center">
+### ⚡ Repository Status
 
 ![Last Commit](https://img.shields.io/github/last-commit/deekshith-b48/Daily-LeetCode?style=flat-square&logo=github&label=Last%20Update&color=success)
-![Commit Activity](https://img.shields.io/github/commit-activity/w/deekshith-b48/Daily-LeetCode?style=flat-square&label=This%20Week&color=blue)
-![Auto Updates](https://img.shields.io/badge/Auto%20Updates-✅%20Active-brightgreen?style=flat-square)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/deekshith-b48/Daily-LeetCode?style=flat-square&label=Weekly%20Commits&color=blue)
+![Auto Updates](https://img.shields.io/badge/Automation-✅%20Active-brightgreen?style=flat-square)
 
 </div>
 
-> 🤖 **Fully Automated Dashboard:** All metrics update in real-time with every commit!  
-> ⚡ **Zero Manual Work:** Focus on coding - let automation handle the tracking!  
-> 📊 **Live Data:** Stats refresh instantly when you push solutions!  
+> 🤖 **Fully Automated:** All stats update automatically with GitHub Actions  
+> 📊 **Real-time Data:** Stats refresh with every commit  
+> ⚡ **Zero Manual Work:** Just commit your solutions!  
 
 ---
 
 ## 🎯 Challenge Overview
 
-> **Building interview-ready skills through consistent daily practice**
+A **90-day coding journey** to build strong Data Structures & Algorithms skills through consistent daily practice.
 
-This isn't just another coding repository - it's a **90-day transformation journey** from October to December 2025. Every commit represents growth, every solution builds confidence, and every day moves me closer to landing that dream job! 💼✨
+### 📅 Timeline: October 1 - December 30, 2025
+### 🎲 Goal: Solve 90+ LeetCode problems in 90 days
+### 💻 Language: Java
+### 📚 Focus: Daily LeetCode challenges + Contest problems
 
-### 📅 **Timeline:** October 1 - December 31, 2025
-### 🎲 **Goal:** Solve at least 90 LeetCode problems in 90 days
-### 💻 **Language:** Primary focus on Java
-### 📚 **Strategy:** Daily problems + LeetCode contests
+### 📋 Challenge Rules
 
-### 🎮 Challenge Rules
-
-- 🔥 **One problem minimum per day** (no excuses!)
-- ⚡ **LeetCode Daily Challenge priority** 
-- 🏆 **Document the journey** with clean, readable code
-- 🎯 **Focus on understanding**, not just solving
-- 💪 **Never break the streak** (90 days straight!)
+- ✅ Minimum 1 problem per day
+- 🎯 Prioritize LeetCode Daily Challenge
+- 📝 Document solutions with clean code and summaries
+- � Maintain 90-day consistency streak
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-📦 Daily-LeetCode/
-├── 📂 Daily-contest/           # 🗓️ Daily solutions organized by date
-│   ├── 📁 oct-1-25/           # Day 1: October 1, 2025
-│   │   ├── 🟨 407.java        # Solution code
-│   │   └── 📝 407-problem-summary.md  # Problem analysis
-│   ├── 📁 oct-2-25/           # Day 2: October 2, 2025
-│   │   ├── 🟨 3341.java       # Solution code
-│   │   └── 📝 3341-problem-summary.md # Problem analysis
-│   └── 📁 ... (continues for 90 days)
-├── 🤖 .github/workflows/       # GitHub Actions automation
-├── 📊 scripts/                 # Progress tracking scripts
-├── 📈 stats.json              # Live statistics (auto-updated)
-├── 🔧 package.json            # Node.js configuration
-├── 📋 tracking-setup.md       # Setup documentation
-├── ⚡ update-progress.sh      # Manual update script
-└── 📖 README.md               # This file
+Daily-LeetCode/
+├── Daily-contest/              # Daily solutions by date
+│   ├── oct-1-25/              # Day 1 solutions
+│   │   ├── 407.java           # Solution code
+│   │   └── 407-problem-summary.md  # Problem analysis
+│   └── oct-X-25/              # Daily folders...
+├── .github/workflows/          # GitHub Actions automation
+├── scripts/                    # Progress tracking scripts
+├── stats.json                  # Auto-updated statistics
+└── README.md                   # Project documentation
 ```
 
 ---
 
 ## 🚀 How to Use This Repository
 
-### 📖 **For Learning:**
-1. **Browse by Date:** Navigate to `Daily-contest/oct-X-25/` folders
-2. **Study Solutions:** Each `.java` file contains clean, well-commented code
-3. **Read Analysis:** Check the `-problem-summary.md` files for detailed explanations
-4. **Run Code:** Compile and run using Java:
+### 📖 For Learning
+1. Navigate to `Daily-contest/oct-X-25/` folders to browse solutions by date
+2. Each `.java` file contains clean, documented solution code
+3. Read `-problem-summary.md` files for detailed problem analysis
+4. Compile and run solutions:
    ```bash
    cd Daily-contest/oct-X-25/
    javac ProblemNumber.java
    java ProblemNumber
    ```
 
-### 📊 **For Tracking:**
-- **Live Stats:** All metrics update automatically with each commit
-- **Manual Update:** Run `./update-progress.sh` if needed
-- **Progress History:** Check `stats.json` for detailed metrics
-
----
-
-## 🏆 Milestones & Achievements
-
-### 🎖️ **Completed Milestones**
-- ✅ **Day 1:** Challenge Started! 🚀
-- ✅ **Day 3:** First Weekend Complete 📅
-
-### 🎯 **Upcoming Milestones**
-- **Day 7:** First Week Warrior 🏅
-- **Day 30:** One Month Champion 🌟
-- **Day 60:** Two Month Titan �
-- **Day 90:** Challenge Completed! 👑
-
----
-
-## � Progress Insights
-
-### 📈 **Current Statistics**
-- **Start Date:** October 1, 2025
-- **Current Day:** Day 4 of 90
-- **Problems Solved:** 2/90
-- **Success Rate:** 50%
-- **Average per Day:** 0.5 problems
-
-### 🎯 **Goals**
-- **Primary:** Maintain 90-day streak
-- **Secondary:** Build strong DSA foundation
-- **Tertiary:** Improve problem-solving speed
-- **Ultimate:** Land dream job interviews! 💼
+### 📊 For Progress Tracking
+- **Live Stats:** All metrics auto-update with each commit via GitHub Actions
+- **Manual Update:** Run `node scripts/progress-tracker.js --save` if needed
+- **Detailed Metrics:** Check `stats.json` for comprehensive statistics
 
 ---
 
 ## 🛠️ Automation Features
 
-### 🤖 **What's Automated:**
-- ✅ **Problem Counting:** Automatically counts `.java` files
-- ✅ **Progress Calculation:** Updates success rates and statistics
-- ✅ **Badge Updates:** All README badges refresh automatically
-- ✅ **Daily Tracking:** GitHub Actions runs on every commit
-- ✅ **Stats Generation:** Creates `stats.json` with live data
+### 🤖 What's Automated
+- ✅ **Problem Counting:** Automatically counts `.java` files in daily folders
+- ✅ **Progress Calculation:** Updates success rates and statistics 
+- ✅ **Badge Updates:** All README badges refresh automatically with GitHub Actions
+- ✅ **Stats Generation:** Creates and updates `stats.json` with live data
 
-### 🔄 **How It Works:**
-1. **Commit Solutions:** Add your `.java` files to daily folders
-2. **Push to GitHub:** GitHub Actions automatically triggers
-3. **Stats Update:** Script counts problems and calculates metrics
-4. **Badge Refresh:** All badges update with new data
-5. **Zero Manual Work:** Everything happens automatically!
+### 🔄 How It Works
+1. **Commit Solutions:** Add `.java` files to daily folders (`Daily-contest/oct-X-25/`)
+2. **Push to GitHub:** GitHub Actions triggers automatically on every commit
+3. **Stats Update:** Script counts problems and calculates all metrics
+4. **Badge Refresh:** All badges update with fresh data - zero manual work!
 
 ---
+
+## 🤝 Connect & Follow
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-deekshith--b48-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deekshith-b48)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Follow-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/your-username)
+
+### ⭐ Support This Project
+
+If this repository inspires you:
+- 🌟 **Star** this repository
+- 👥 **Follow** for updates  
+- 🍴 **Fork** to start your own challenge
+
+</div>
+
+---
+
+<div align="center">
+
+*Built with consistency, dedication, and lots of ☕*
+
+**Happy Coding! 🚀**
+
+</div>
 
 ## 🎯 The Why Behind This Journey
 
