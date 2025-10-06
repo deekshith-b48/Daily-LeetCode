@@ -1,14 +1,39 @@
 {
-  "name": "leetcode-progress-tracker",
+  "name": "daily-leetcode-challenge",
   "version": "1.0.0",
-  "description": "Automatic progress tracking for Daily LeetCode Challenge",
+  "description": "90-Day LeetCode Challenge with automated progress tracking",
   "main": "scripts/progress-tracker.js",
   "scripts": {
     "track": "node scripts/progress-tracker.js",
     "save-stats": "node scripts/progress-tracker.js --save",
-    "stats": "node scripts/progress-tracker.js --quiet"
+    "stats": "node scripts/progress-tracker.js --quiet",
+    "update": "node scripts/progress-tracker.js --save",
+    "display": "node scripts/progress-tracker.js"
   },
-  "keywords": ["leetcode", "progress", "tracking", "automation"],
-  "author": "deekshith-b48",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deekshith-b48/Daily-LeetCode.git"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data-structures",
+    "java",
+    "90-day-challenge",
+    "progress-tracking",
+    "automation",
+    "github-actions"
+  ],
+  "author": {
+    "name": "deekshith-b48",
+    "url": "https://github.com/deekshith-b48"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/deekshith-b48/Daily-LeetCode#readme",
+  "bugs": {
+    "url": "https://github.com/deekshith-b48/Daily-LeetCode/issues"
+  }
 }

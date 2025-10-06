@@ -3,6 +3,9 @@ name: 📊 Auto Update LeetCode Stats
 on:
   push:
     branches: [ main ]
+    paths: 
+      - 'Daily-contest/**'
+      - 'scripts/**'
   schedule:
     - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
@@ -16,82 +19,57 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
           
-      - name: 📊 Count Problems Solved
-        id: count
+      - name: � Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: 📊 Run Progress Tracker
         run: |
-          # Count .java files in Daily-contest directory
-          PROBLEM_COUNT=$(find Daily-contest -name "*.java" 2>/dev/null | wc -l)
-          echo "problems=$PROBLEM_COUNT" >> $GITHUB_OUTPUT
+          # Run the Node.js progress tracker script
+          node scripts/progress-tracker.js --save
           
-          # Count folders (days completed)
-          FOLDER_COUNT=$(find Daily-contest -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l)
-          echo "days=$FOLDER_COUNT" >> $GITHUB_OUTPUT
-          
-      - name: 📅 Calculate Challenge Progress
-        id: progress
+      - name: � Calculate Additional Metrics
+        id: metrics
         run: |
-          START_DATE="2025-10-01"
-          CURRENT_DATE=$(date +%Y-%m-%d)
+          # Read stats from the generated JSON file
+          TOTAL_PROBLEMS=$(node -p "JSON.parse(require('fs').readFileSync('stats.json', 'utf8')).totalProblems")
+          CURRENT_DAY=$(node -p "JSON.parse(require('fs').readFileSync('stats.json', 'utf8')).currentDay")
+          SUCCESS_RATE=$(node -p "JSON.parse(require('fs').readFileSync('stats.json', 'utf8')).successRate")
+          DAYS_REMAINING=$(node -p "JSON.parse(require('fs').readFileSync('stats.json', 'utf8')).daysRemaining")
+          PROGRESS_PERCENTAGE=$(node -p "JSON.parse(require('fs').readFileSync('stats.json', 'utf8')).progressPercentage")
           
-          # Calculate days since start (including start date)
-          DAYS_SINCE_START=$(( ($(date -d "$CURRENT_DATE" +%s) - $(date -d "$START_DATE" +%s)) / 86400 + 1 ))
-          
-          # Ensure we don't go below 1 or above 90
-          if [ $DAYS_SINCE_START -lt 1 ]; then
-            DAYS_SINCE_START=1
-          elif [ $DAYS_SINCE_START -gt 90 ]; then
-            DAYS_SINCE_START=90
-          fi
-          
-          echo "currentDay=$DAYS_SINCE_START" >> $GITHUB_OUTPUT
-          
-          # Calculate success rate
-          PROBLEMS_SOLVED=${{ steps.count.outputs.problems }}
-          if [ $DAYS_SINCE_START -gt 0 ]; then
-            SUCCESS_RATE=$(( (PROBLEMS_SOLVED * 100) / DAYS_SINCE_START ))
-          else
-            SUCCESS_RATE=0
-          fi
+          echo "totalProblems=$TOTAL_PROBLEMS" >> $GITHUB_OUTPUT
+          echo "currentDay=$CURRENT_DAY" >> $GITHUB_OUTPUT
           echo "successRate=$SUCCESS_RATE" >> $GITHUB_OUTPUT
-          
-      - name: ✨ Generate Stats JSON
-        run: |
-          cat > stats.json << EOF
-          {
-            "totalProblems": ${{ steps.count.outputs.problems }},
-            "foldersCreated": ${{ steps.count.outputs.days }},
-            "currentDay": ${{ steps.progress.outputs.currentDay }},
-            "successRate": ${{ steps.progress.outputs.successRate }},
-            "challengeStartDate": "2025-10-01",
-            "lastUpdated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-            "daysRemaining": $((90 - ${{ steps.progress.outputs.currentDay }})),
-            "targetProblems": 90,
-            "averageProblemsPerDay": "$(echo "scale=2; ${{ steps.count.outputs.problems }} / ${{ steps.progress.outputs.currentDay }}" | bc -l 2>/dev/null || echo "0")"
-          }
-          EOF
-          
-      - name: 🎯 Create Progress Badge Data
-        run: |
-          PROBLEMS=${{ steps.count.outputs.problems }}
-          DAY=${{ steps.progress.outputs.currentDay }}
-          SUCCESS_RATE=${{ steps.progress.outputs.successRate }}
-          
-          # Create individual badge data files
-          echo "$PROBLEMS" > problem-count.txt
-          echo "$DAY" > current-day.txt  
-          echo "${SUCCESS_RATE}%" > success-rate.txt
+          echo "daysRemaining=$DAYS_REMAINING" >> $GITHUB_OUTPUT
+          echo "progressPercentage=$PROGRESS_PERCENTAGE" >> $GITHUB_OUTPUT
           
       - name: 📝 Commit Updated Stats
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add stats.json problem-count.txt current-day.txt success-rate.txt
+          # Add the updated stats.json
+          git add stats.json
           
+          # Check if there are changes to commit
           if ! git diff --staged --quiet; then
-            git commit -m "📊 Auto-update LeetCode progress stats [Day ${{ steps.progress.outputs.currentDay }}] - ${{ steps.count.outputs.problems }} problems solved"
+            git commit -m "📊 Auto-update progress: Day ${{ steps.metrics.outputs.currentDay }}/90 | ${{ steps.metrics.outputs.totalProblems }} problems solved | ${{ steps.metrics.outputs.successRate }}% success rate"
             git push
+            echo "✅ Stats updated successfully!"
           else
-            echo "No changes to commit"
+            echo "ℹ️ No changes to commit - stats are up to date"
           fi
+          
+      - name: � Display Summary
+        run: |
+          echo "🎯 === LEETCODE CHALLENGE SUMMARY ==="
+          echo "📅 Challenge Day: ${{ steps.metrics.outputs.currentDay }}/90"
+          echo "✅ Problems Solved: ${{ steps.metrics.outputs.totalProblems }}"
+          echo "📈 Success Rate: ${{ steps.metrics.outputs.successRate }}%"
+          echo "⏰ Days Remaining: ${{ steps.metrics.outputs.daysRemaining }}"
+          echo "🎯 Overall Progress: ${{ steps.metrics.outputs.progressPercentage }}%"
+          echo "=================================="
