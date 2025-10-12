@@ -64,59 +64,6 @@ A **90-day coding journey** to build strong Data Structures & Algorithms skills 
 
 ---
 
-## 📁 Repository Structure
-
-```
-Daily-LeetCode/
-├── Daily-contest/              # Daily solutions by date
-│   ├── oct-1-25/              # Day 1 solutions
-│   │   ├── 407.java           # Solution code
-│   │   └── 407-problem-summary.md  # Problem analysis
-│   └── oct-X-25/              # Daily folders...
-├── .github/workflows/          # GitHub Actions automation
-├── scripts/                    # Progress tracking scripts
-├── stats.json                  # Auto-updated statistics
-└── README.md                   # Project documentation
-```
-
----
-
-## 🚀 How to Use This Repository
-
-### 📖 For Learning
-1. Navigate to `Daily-contest/oct-X-25/` folders to browse solutions by date
-2. Each `.java` file contains clean, documented solution code
-3. Read `-problem-summary.md` files for detailed problem analysis
-4. Compile and run solutions:
-   ```bash
-   cd Daily-contest/oct-X-25/
-   javac ProblemNumber.java
-   java ProblemNumber
-   ```
-
-### 📊 For Progress Tracking
-- **Live Stats:** All metrics auto-update with each commit via GitHub Actions
-- **Manual Update:** Run `node scripts/progress-tracker.js --save` if needed
-- **Detailed Metrics:** Check `stats.json` for comprehensive statistics
-
----
-
-## 🛠️ Automation Features
-
-### 🤖 What's Automated
-- ✅ **Problem Counting:** Automatically counts `.java` files in daily folders
-- ✅ **Progress Calculation:** Updates success rates and statistics 
-- ✅ **Badge Updates:** All README badges refresh automatically with GitHub Actions
-- ✅ **Stats Generation:** Creates and updates `stats.json` with live data
-
-### 🔄 How It Works
-1. **Commit Solutions:** Add `.java` files to daily folders (`Daily-contest/oct-X-25/`)
-2. **Push to GitHub:** GitHub Actions triggers automatically on every commit
-3. **Stats Update:** Script counts problems and calculates all metrics
-4. **Badge Refresh:** All badges update with fresh data - zero manual work!
-
----
-
 ## 🤝 Connect & Follow
 
 <div align="center">
