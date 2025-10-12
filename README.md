@@ -62,34 +62,6 @@ A **90-day coding journey** to build strong Data Structures & Algorithms skills 
 - 📝 Document solutions with clean code and summaries
 - � Maintain 90-day consistency streak
 
----
-
-## 🤝 Connect & Follow
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-deekshith--b48-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deekshith-b48)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Follow-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/your-username)
-
-### ⭐ Support This Project
-
-If this repository inspires you:
-- 🌟 **Star** this repository
-- 👥 **Follow** for updates  
-- 🍴 **Fork** to start your own challenge
-
-</div>
-
----
-
-<div align="center">
-
-*Built with consistency, dedication, and lots of ☕*
-
-**Happy Coding! 🚀**
-
-</div>
 
 ## 🎯 The Why Behind This Journey
 
