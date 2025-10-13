@@ -30,7 +30,13 @@
 
 ### 🔥 GitHub Activity
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshith-b48&theme=dark&hide_border=true&background=0D1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=4ecdc4&sideLabels=45b7d1&currStreakNum=ffffff&dates=96ceb4" alt="GitHub Streak"/>
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com/deekshith-b48?theme=dark)](https://git.io/streak-stats)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=deekshith-b48&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=ff6b6b&text_color=4ecdc4&icon_color=45b7d1)
+
+</div>
 
 ### ⚡ Repository Status
 
