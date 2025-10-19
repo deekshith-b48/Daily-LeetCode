@@ -200,7 +200,6 @@ A **90-day coding journey** to build strong Data Structures & Algorithms skills 
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00D8FF&center=true&vCenter=true&width=500&lines=📝+Daily+Mantras" alt="Daily Mantras" />
 
 </div>
 
@@ -215,17 +214,6 @@ A **90-day coding journey** to build strong Data Structures & Algorithms skills 
 </div>
 
 
-## 📬 Contact
-
-* GitHub: [deekshith-b48](https://github.com/deekshith-b48)
-* LinkedIn: *(Add profile link)*
-
----
-
-## ⭐ Support
-
-If this inspires you, please **⭐ Star** the repo & **👨‍💻 Follow** to stay updated!
-
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="350" alt="Keep Coding"/>
+  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="350" alt="Coding Journey"/>
 </p>
